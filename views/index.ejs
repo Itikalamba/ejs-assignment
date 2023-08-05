@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <!-- <link rel="stylesheet" href="../styles.css"> -->
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    display: inline-block;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.login-btn {
+    background-color: #007bff;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+.new-account-btn {
+    background-color: #28a745;
+}
+
+.new-account-btn:hover {
+    background-color: #1e7e34;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Our Website</h1>
+        <div class="buttons">
+            <a href="/login" class="login-btn" id="loginBtn">Log In</a>
+            <a href="/signup" class="new-account-btn">Create New Account</a>
+        </div>
+    </div>
+
+</body>
+</html>
